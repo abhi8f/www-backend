@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: www
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/wwwdb
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: 7227
+
+  jpa:
+    hibernate:
+      ddl-auto: update
